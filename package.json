@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "git@github.com:chiefsmurph/td-playground.git",
   "author": "chiefsmurph <chiefsmurph@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "puppeteer": "^1.19.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
 }
