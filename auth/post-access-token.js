@@ -10,9 +10,10 @@ module.exports = async code => {
       code,
       client_id: CLIENT_ID,
       redirect_uri: 'http://localhost:3000'
-    }
+    },
+    json: true
   });
   
-  return JSON.parse(response);
+  return response;
 
 };
