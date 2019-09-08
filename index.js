@@ -16,7 +16,6 @@ const getHistoricals = require('./actions/get-historicals');
   
   const historicals = await getHistoricals('AAPL', 30);
 
-  console.log(historicals)
   console.log(
     JSON.stringify(
       historicals,
